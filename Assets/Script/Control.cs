@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class Control : MonoBehaviour
 {
+
 	[SerializeField] LayerMask [] layer;
 	[SerializeField] int maxHealth;
 	[SerializeField] int currentHealth;

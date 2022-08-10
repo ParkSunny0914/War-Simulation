@@ -1947,7 +1947,7 @@ Animator:
   m_GameObject: {fileID: 7418191803261245114}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 741f73214c8e59045b42ebac4be91444, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1dcabad033123d74793617c187c0a9aa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 38567e7d6cb5bbc47b64d61ed8c3fbfe, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1969,7 +1969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eac62f1a5e400a4fa13ace19a393e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   layer:
   - serializedVersion: 2
     m_Bits: 8
@@ -1978,6 +1977,7 @@ MonoBehaviour:
   maxHealth: 0
   currentHealth: 100
   attack: 10
+  speed: 1
   Gauge: {fileID: 3811032617210813108}
 --- !u!65 &2551210361667826849
 BoxCollider:

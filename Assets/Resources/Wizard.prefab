@@ -727,6 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eac62f1a5e400a4fa13ace19a393e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioDie: {fileID: 8300000, guid: 976bef0c608d42c4ba285d6262062e52, type: 3}
   layer:
   - serializedVersion: 2
     m_Bits: 64
