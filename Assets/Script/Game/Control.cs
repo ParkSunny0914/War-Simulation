@@ -46,7 +46,7 @@ public class Control : MonoBehaviour
 			speed = 0.0f;
 			animator.SetBool("Attack State", true);
 
-			if(animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
+			if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack1"))
 			{
 				if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime - count >= 1)
 				{

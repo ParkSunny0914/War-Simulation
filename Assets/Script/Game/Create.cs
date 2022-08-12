@@ -23,18 +23,6 @@ public class Create : MonoBehaviour
         price.text = product.price.ToString() + "$";
     }
 
-    public void Update()
-    {
-        if (DataManager.instance.money < product.price)
-        {
-            createButton.interactable = true;
-        }
-        else
-        {
-            createButton.interactable = false;
-        }
-    }
-
     public void CreateUnit(int count)
     {
         SoundManager.instance.Sound(0);
@@ -79,7 +67,7 @@ public class Create : MonoBehaviour
             createButton.image.fillAmount = (1.0f / timer);
             yield return new WaitForFixedUpdate();
         }
-
+        SoundManager.instance.Sound(2);
         createButton.interactable = true;
     }
 }
